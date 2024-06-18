@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Age Counter</title>
+  <link rel="stylesheet" href="newtab.css">
+</head>
+<body>
+  <div id="container">
+    <div id="age-display">
+      <div class="age-unit">
+        <span id="age-years" class="age-value"></span>
+        <span class="age-label">YEARS</span>
+      </div>
+      <div class="age-unit">
+        <span id="age-months" class="age-value"></span>
+        <span class="age-label">MONTHS</span>
+      </div>
+      <div class="age-unit">
+        <span id="age-days" class="age-value"></span>
+        <span class="age-label">DAYS</span>
+      </div>
+      <div class="age-unit">
+        <span id="age-hours" class="age-value"></span>
+        <span class="age-label">HOURS</span>
+      </div>
+      <div class="age-unit">
+        <span id="age-minutes" class="age-value"></span>
+        <span class="age-label">MINUTES</span>
+      </div>
+      <div class="age-unit">
+        <span id="age-seconds" class="age-value"></span>
+        <span class="age-label">SECONDS</span>
+      </div>
+      <div class="age-unit">
+        <span id="age-milliseconds" class="age-value"></span>
+        <span class="age-label">MILLISECONDS</span>
+      </div>
+    </div>
+    <button id="update-age-btn">Update Birthdate</button>
+    <form id="age-form" style="display: none;">
+      <label for="birthdate">Enter your birthdate:</label>
+      <input type="date" id="birthdate" required>
+      <button type="submit">Save</button>
+    </form>
+  </div>
+  <script src="newtab.js"></script>
+</body>
+</html>

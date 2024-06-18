@@ -1,0 +1,70 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  color: white;
+}
+
+#container {
+  text-align: center;
+}
+
+#age-display {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.age-unit {
+  margin: 0 15px;
+}
+
+.age-value {
+  font-size: 48px;
+  display: block;
+}
+
+.age-label {
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label, input, button {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #4ca1af;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3b9a9c;
+}
+
+#update-age-btn{
+  
+}
